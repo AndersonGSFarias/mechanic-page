@@ -1,0 +1,444 @@
+/* Cabecalho */
+
+.header-container {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  height: 46rem;
+  width: 100%;
+  background-image: url("/assets/images/header-background.png");
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+}
+
+.header-container .text-header-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 60%;
+}
+
+/* Logo */
+
+.header-container .text-header-container .logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 5rem 0rem;
+}
+
+.header-container .text-header-container .logo-container .logo-img,
+img {
+  height: 5rem;
+}
+
+.header-container .text-header-container .logo-container .text-menu {
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+/* Titulo principal */
+
+.header-container .text-header-container .title-container .header-title h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+/* Subtitulo */
+
+.header-container .text-header-container .header-subtitle {
+  width: 45%;
+}
+
+.header-container .text-header-container .header-subtitle h2 {
+  color: #fff;
+  font-size: 14px;
+  border-left: 700;
+  font-style: normal;
+  margin: 20px 0px;
+}
+
+/* Icones */
+
+.header-container .text-header-container .icons-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.header-container .text-header-container .icons-container ul {
+  width: 62%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.header-container .text-header-container .icons-container ul li img {
+  height: 120px;
+}
+
+/* Botao */
+.header-container .text-header-container .btn-container {
+  margin-top: 50px;
+}
+.header-container .text-header-container .btn-container .btn-primary {
+  width: 192px;
+  height: 62px;
+  border-radius: 10px;
+  background-color: #50b2ea;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14pt;
+  border: none;
+}
+
+/* Primeiro Conteudo  */
+
+.first-content-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #fff 52.08%, #50b2ea 47.92%);
+  position: relative;
+  height: 50rem;
+  width: 100%;
+}
+
+.first-content-container #content-one {
+  display: flex;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #50b2ea;
+}
+
+/* Conteudo da esquerda*/
+
+.first-content-container #content-one .content-one-box {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+  height: 32rem;
+  padding: 40px;
+  color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* Media aplicada para ajuste de maiores monitores*/
+
+@media (min-width: 1024px) {
+  .first-content-container #content-one .content-one-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 53%;
+    height: 32rem;
+    padding: 40px;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+}
+
+.first-content-container #content-one .content-one-box h1 {
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.first-content-container #content-one .content-one-box p {
+  color: #19435a;
+  font-size: 14px;
+}
+
+.first-content-container #content-one .content-one-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.first-content-container #content-one .content-one-box ul li {
+  margin: 15px 0;
+}
+
+.first-content-container #content-one .content-one-box ul li img {
+  height: 18px;
+  margin-right: 10px;
+}
+
+/* Imagem do conteudo */
+.first-content-container #content-one .img-content {
+  width: 47%;
+}
+
+.first-content-container #content-one .man-img {
+  width: 104%;
+  height: 104%;
+  object-fit: cover;
+}
+
+/* Segundo conteudo*/
+
+.second-content-container {
+  display: flex;
+  height: 46rem;
+}
+
+.second-content-container .content-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+/* Parte superior do segundo conteudo */
+.second-content-container .content-container .top-content-two-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: #50b2ea;
+  background-image: url(/assets/images/second-content-background.png);
+  background-size: cover;
+  width: 100%;
+  height: 57.89%;
+}
+
+.second-content-container .content-container .top-content-two-box h1 {
+  color: #fff;
+  margin-top: 45px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.second-content-container
+  .content-container
+  .top-content-two-box
+  .wrench-list-container {
+  width: 55%;
+  margin-bottom: 20px;
+}
+
+.second-content-container
+  .content-container
+  .top-content-two-box
+  .wrench-list-container
+  ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.second-content-container
+  .content-container
+  .top-content-two-box
+  .wrench-list-container
+  .wrench-img {
+  height: 150px;
+}
+
+/* Parte inferior do segundo conteudo */
+
+.second-content-container .content-container .wrench-list-text {
+  width: 62%;
+}
+
+.second-content-container .content-container .wrench-list-text ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.second-content-container .content-container .wrench-list-text ul li {
+  display: flex;
+  justify-content: center;
+}
+
+.second-content-container .content-container .wrench-list-text ul div {
+  width: 80%;
+}
+
+.second-content-container .content-container .wrench-list-text ul h2 {
+  margin: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #50b2ea;
+}
+
+.second-content-container .content-container .wrench-list-text ul a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #19435a;
+}
+
+.second-content-container .content-container .services-btn {
+  margin: 30px;
+}
+
+/* Terceiro conteudo */
+
+.third-content-container {
+  text-align: center;
+  background-color: #50b2ea;
+  padding: 50px 20px;
+}
+
+.third-content-container h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+/* Caixas de comentarios */
+
+.third-content-container .comments-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  max-width: 70%;
+  margin: auto;
+}
+
+.third-content-container .comments-container .comments-box {
+  display: flex;
+  background-color: #fff;
+  align-items: flex-start;
+  padding: 40px 30px 30px 30px;
+  border-radius: 40px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.third-content-container .comments-container .comments-box img {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+.third-content-container .comments-container .comments-box .comments-content {
+  flex: 1;
+}
+
+.third-content-container
+  .comments-container
+  .comments-box
+  .comments-content
+  h3 {
+  font-size: 18px;
+  color: #50b2ea;
+  font-weight: 700;
+}
+
+.third-content-container .comments-container .comments-box .comments-content p {
+  font-size: 14px;
+  color: #19435a;
+  margin: 20px 0px;
+}
+
+.third-content-container
+  .comments-container
+  .comments-box
+  .comments-content
+  .stars
+  ul {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.third-content-container
+  .comments-container
+  .comments-box
+  .comments-content
+  .stars
+  ul
+  li
+  img {
+  width: 18px;
+  height: 18px;
+  margin: 0px;
+}
+
+/* Rodapé da página */
+
+.final-page {
+  height: 32.5rem;
+}
+
+.final-page .form-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  height: 100%;
+}
+.final-page .form-footer h2 {
+  margin: 50px 0px;
+  color: #50b2ea;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* Formulário */
+
+.final-page .form-footer .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  height: 100%;
+}
+
+.final-page .form-footer .contact-form .input-forms {
+  width: 100%;
+  padding: 12px 0px 12px 20px;
+  background-color: rgba(80, 178, 234, 0.5);
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 16px;
+  width: 370px;
+  height: 64px;
+  resize: none;
+}
+
+.final-page .form-footer .contact-form .input-forms:focus {
+  caret-color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.final-page .form-footer .contact-form .input-forms::placeholder {
+  color: #fff;
+}
+
+.final-page .form-footer .contact-form .btn-forms {
+  width: 148px;
+  height: 64px;
+  background: #50b2ea;
+  color: #fff;
+  border-radius: 40px;
+}
+
+.final-page .footer-background {
+  background-color: #19435a;
+  height: 5rem;
+}
